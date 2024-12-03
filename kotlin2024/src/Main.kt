@@ -36,4 +36,32 @@ fun main() {
     for (i in 1..5) {
         println("i = $i")
     }
+
+    println("==================================================================")
+
+    /*
+    * - Ép kiểu trong kotlin
+    * - ép từ kiểu dữ liệu nhỏ sang kiểu dữ liệu lớn
+    * byte < short or int < long
+    * */
+//    ép từ nhỏ sang lớn
+    var a: Int = 9
+    var a1: Long = a.toLong()
+    println("a = $a có kiểu dữ liệu là: " + a::class.java.typeName)
+    println("a1 = $a1 có kiểu dữ liệu là: " + a1::class.java.typeName)
+
+//    ép từ lớn xuống nhỏ
+//    byte < short
+    var x: Short = 3456 // leak memmory
+    var y: Byte = x.toByte()
+    println("x = $x có kiểu dữ liệu là: " + x::class.java.typeName)
+    println("y = $y có kiểu dữ liệu là: " + y::class.java.typeName)
+
+    println("==================================================================")
+
+    var x1: Short = 125
+    var y1: Byte = x1.toByte()
+    println("x1 = $x1 có kiểu dữ liệu là: " + x1::class.java.typeName)
+    println("y1 = $y1 có kiểu dữ liệu là: " + y1::class.java.typeName)
+
 }
