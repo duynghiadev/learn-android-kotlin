@@ -1,5 +1,5 @@
 duynghia, abc@gmail.com, 10.0, 10.0, 10.0
-def, def@gmail.com, 3.0, 4.0, 1.0
+def, def@gmail.com, 5.0, 5.0, 5.0
 a, a@gmail.com, 1.0, 2.0, 1.0
 abc, a@gmail.com, 10.0, 10.0, 10.0
 Mesi, messi@gmail.cm, 2.0, 6.0, 8.0
