@@ -11,4 +11,3 @@ Kotlin is a modern, statically typed programming language designed for multi-pla
 
 Kotlin has gained popularity for its simplicity, versatility, and strong support from Google for Android development.
 
-https://github.com/thantrieu/LearnKotlin
