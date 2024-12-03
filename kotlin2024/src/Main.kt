@@ -78,4 +78,37 @@ fun main() {
     println("x2 * x3: " + (x2 * x3))
     println("x2 / x3: " + (x2 / x3))
     println("x2 % x3: " + (x2 % x3))
+
+    println("==================================================================")
+    println("Toán tử gán trong Kotlin")
+    println("==================================================================")
+
+    // cộng bằng: +=
+    // trừ bằng: -=
+    // nhân bằng: *=
+    // chia bằng: /=
+    // chia lấy dư bằng: %=
+
+    var x4 = 20
+    x4 += 5
+    println("x4 = $x4")
+
+    x4 -= 5
+    println("x4 = $x4")
+
+    x4 *= 5
+    println("x4 = $x4")
+
+    x4 %= 5
+    println("x4 = $x4")
+
+    println("==================================================================")
+    println("Toán so sánh trong Kotlin")
+    println("==================================================================")
+
+    var x5 = 90
+    var x6 = 7
+
+    println("x5 > x6: " + (x5 > x6))
+    println("x5 < x6: " + (x5 < x6))
 }
