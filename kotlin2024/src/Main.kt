@@ -64,4 +64,18 @@ fun main() {
     println("x1 = $x1 có kiểu dữ liệu là: " + x1::class.java.typeName)
     println("y1 = $y1 có kiểu dữ liệu là: " + y1::class.java.typeName)
 
+    println("==================================================================")
+    println("Toán tử trong Kotlin")
+    println("==================================================================")
+
+    var x2: Int = 20
+    var x3 = 3
+    println("x2 = $x2 có kiểu dữ liệu là: " + x2::class.java.typeName)
+    println("x3 = $x3 có kiểu dữ liệu là: " + x3::class.java.typeName)
+
+    println("x2 + x3: " + (x2 + x3))
+    println("x2 - x3: " + (x2 - x3))
+    println("x2 * x3: " + (x2 * x3))
+    println("x2 / x3: " + (x2 / x3))
+    println("x2 % x3: " + (x2 % x3))
 }
