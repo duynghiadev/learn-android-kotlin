@@ -46,8 +46,8 @@ fun Lab1_MD18306Theme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
+        darkTheme -> LightColorScheme
+        else -> DarkColorScheme
     }
 
     MaterialTheme(
