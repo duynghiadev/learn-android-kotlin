@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ManagerLibrary" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/circle</item>
+    </style>
+
+    <style name="Theme.ManagerLibrary" parent="Base.Theme.ManagerLibrary" />
+    <style name="ThemeOverlay.Material3.NavigationView." parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">@color/circle</item>
+    </style>
+    <style name="CustomDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
