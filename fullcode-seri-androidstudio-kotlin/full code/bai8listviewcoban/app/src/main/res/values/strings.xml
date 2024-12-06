@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">bai8-listviewcoban</string>
+    <string-array name="arrQuocGia">
+        <item>Lào</item>
+        <item>Campuchia</item>
+        <item>Thái Lan</item>
+        <item>Ba lan</item>
+        <item>Hà lan</item>
+        <item>Phần lan</item>
+        <item>Lào</item>
+        <item>Campuchia</item>
+        <item>Thái Lan</item>
+        <item>Ba lan</item>
+        <item>Hà lan</item>
+        <item>Phần lan</item>
+        <item>Lào</item>
+        <item>Campuchia</item>
+        <item>Thái Lan</item>
+        <item>Ba lan</item>
+        <item>Hà lan</item>
+        <item>Phần lan</item>
+    </string-array>
+</resources>

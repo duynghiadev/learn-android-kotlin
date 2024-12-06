@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--ctrl + shift + /  -->
+    <!--khối item 1 -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#2196F3"/>
+        </shape>
+    </item>
+
+    <!--khối item 2 -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/white"/>
+            <size android:height="100dp"
+                android:width="100dp"/>
+        </shape>
+    </item>
+
+    <!--khối item 3 -->
+    <item
+        android:gravity="center"
+        >
+        <shape
+            android:shape="oval">
+            <stroke
+                android:color="@color/black"
+                android:width="5dp"
+                />
+            <size android:width="50dp"
+                android:height="50dp"/>
+        </shape>
+    </item>
+</layer-list>

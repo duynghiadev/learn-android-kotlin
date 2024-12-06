@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích của thím: "
+        android:textStyle="bold"
+        android:textColor="#980BA0"
+        android:textSize="24dp" />
+
+    <CheckBox
+        android:id="@+id/chkNgheNhac"
+        android:layout_width="match_parent"
+        android:textColor="#f20"
+        android:layout_height="wrap_content"
+        android:text="Nghe nhạc" />
+
+    <CheckBox
+        android:id="@+id/chkXemPhim"
+        android:layout_width="match_parent"
+        android:textColor="#f20"
+        android:layout_height="wrap_content"
+        android:text="Xem Phim" />
+
+    <CheckBox
+        android:id="@+id/chkChoiTheThao"
+        android:layout_width="match_parent"
+        android:textColor="#f20"
+        android:layout_height="wrap_content"
+        android:text="Chơi Thể Thao" />
+
+    <CheckBox
+        android:id="@+id/chkShopping"
+        android:textColor="#f20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shopping" />
+
+    <CheckBox
+        android:id="@+id/chkDuLich"
+        android:textColor="#f20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Du Lịch" />
+
+    <Button
+        android:id="@+id/btnChonSoThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chọn Sở Thích" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#980BA0"
+        android:text="Sở thích của bạn chọn là: " />
+
+    <EditText
+        android:id="@+id/edtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Sở thích của bạn sẽ hiện ở đây: "
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:textColor="#f20"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Sở Thích: " />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/radNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+
+        <Button
+            android:id="@+id/btnXacNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Xác nhận" />
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bai9-spinnercoban</string>
+    <string-array name="ngonngu">
+        <item>English</item>
+        <item>VietNam</item>
+        <item>Hà Lan</item>
+    </string-array>
+
+</resources>

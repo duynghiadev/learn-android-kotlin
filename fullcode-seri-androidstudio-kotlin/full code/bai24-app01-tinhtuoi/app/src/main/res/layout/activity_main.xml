@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#44A8D6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/mautoithich"
+        android:text="How many MINUTES" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BE65E3"
+        android:padding="10dp"
+        android:textSize="34sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="have you lived? " />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:backgroundTint="#E70000"
+        android:layout_marginStart="20dp"
+        android:textColor="#F8E00D"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLICK Chọn ngày sinh của cụ" />
+
+    <TextView
+        android:id="@+id/txtDateSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#041575"
+        android:text="01/01/2022" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#041575"
+        android:text="Cụ đã sống trên cõi đời này được" />
+
+    <TextView
+        android:id="@+id/txtAgeInMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#041575"
+        android:text="99999999" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#041575"
+        android:text="phút" />
+</LinearLayout>

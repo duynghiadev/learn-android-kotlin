@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2CDDDA"
+    android:orientation="vertical"
+    tools:context=".manhinh2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đây là màn hình 2 "
+        android:layout_marginTop="15dp"
+        android:textColor="#20f"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Bấm để quay lại" />
+
+    <EditText
+        android:id="@+id/edtGetIntent"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
