@@ -1,0 +1,1 @@
+phần này có code đính kèm nữa, mà mình xoá hết rồi. Không cần code, xem video và hiểu. Còn muốn thực hành thì vào folder project-kotlin
