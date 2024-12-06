@@ -23,12 +23,12 @@ class AuthActivity : AppCompatActivity() {
             insets
         }
 
-        binding.loginBtn.setOnClickListener{
+        binding.loginBtn.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
-        binding.registerBtn.setOnClickListener{
+        binding.registerBtn.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }

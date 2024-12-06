@@ -87,7 +87,12 @@ object RealPathUtil {
                 return getDataColumn(context, contentUri, selection, selectionArgs)
             }
         } else if ("content".equals(uri.scheme, ignoreCase = true)) {
-            return if (isGooglePhotosUri(uri)) uri.lastPathSegment else getDataColumn(context, uri, null, null)
+            return if (isGooglePhotosUri(uri)) uri.lastPathSegment else getDataColumn(
+                context,
+                uri,
+                null,
+                null
+            )
         } else if ("file".equals(uri.scheme, ignoreCase = true)) {
             return uri.path
         }
@@ -95,7 +100,12 @@ object RealPathUtil {
         return null
     }
 
-    fun getDataColumn(context: Context, uri: Uri?, selection: String?, selectionArgs: Array<String>?): String? {
+    fun getDataColumn(
+        context: Context,
+        uri: Uri?,
+        selection: String?,
+        selectionArgs: Array<String>?
+    ): String? {
         val column = "_data"
         val projection = arrayOf(column)
 
